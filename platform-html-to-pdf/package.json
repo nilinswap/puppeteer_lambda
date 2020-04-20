@@ -1,0 +1,28 @@
+{
+  "name": "platform-html-to-pdf",
+  "version": "1.0.0",
+  "description": "convert html to pdf using puppeteer",
+  "main": "index.js",
+  "directories": {},
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start:dev": "node index.js",
+    "start:build": "npm install && npm run-script build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "keywords": [
+    "pdf",
+    "node",
+    "puppeteer"
+  ],
+  "author": "Swapnil Sharma <nilinswap@github.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^5.15.2"
+  }
+}
